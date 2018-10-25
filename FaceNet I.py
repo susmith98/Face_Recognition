@@ -16,7 +16,7 @@ from sklearn.preprocessing import LabelEncoder
 import imutils
 from imutils.face_utils import FaceAligner
 
-
+# LOADING THE FACENET MODEL AND WEIGHTS
 model=load_model(os.path.join(r'D:\ProjectML\FR',r'facenet_keras.h5'))
 model.load_weights(os.path.join(r'D:\ProjectML\FR',r'facenet_keras_weights.h5'))
 
